@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "name" : "Emily Carter",
+        "review" : "I’ve been visiting this coffee shop for quite some time now, and it has consistently been a great experience. The coffee always tastes fresh and well-balanced, and the atmosphere makes it easy to relax or get some work done. What I really like is how the quality has stayed the same over multiple visits. The staff are friendly and welcoming, which adds to the overall vibe. It’s definitely a place I keep coming back to.",
+        "job" : "Marketing Manager"
+    },
+    {
+        "id" : 2,
+        "name" : "Lucas Bennett",
+        "review" : "This place quickly became one of my favorite coffee spots. From the first visit, everything felt well thought out—from the menu to the cozy seating. The drinks are made with care, and you can really taste the difference. Even during busy hours, the service remains smooth and efficient. It’s a reliable spot whether you’re meeting friends or just spending some quiet time alone.",
+        "job" : "Software Engineer"
+    },
+    {
+        "id" : 3,
+        "name" : "Sofia Martinez",
+        "review" : "I really enjoy spending time at this coffee shop. The environment is calm and inviting, making it perfect for both relaxing and working. The coffee is consistently good, and there’s a nice variety to choose from. Over time, I’ve noticed that the quality doesn’t drop, which is something I truly appreciate. It’s one of those places that feels comfortable every single visit.",
+        "job" : "Graphic Designer"
+    },
+    {
+        "id": 4,
+        "name" : "Daniel Thompson",
+        "review" : "After visiting this café several times, I can say it’s one of the more consistent places around. The drinks are always prepared well, and the overall experience feels smooth and enjoyable. The seating is comfortable, and the atmosphere has a warm, welcoming feel. It’s clear that attention is given to both quality and customer experience. I would definitely recommend it to anyone looking for a good coffee spot.",
+        "job" : "Financial Analyst"
+    }
+]

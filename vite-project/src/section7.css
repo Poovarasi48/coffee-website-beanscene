@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+:root{
+    --fontColor--sec7: #ffffff;
+    --acent-color: #F9C06A;
+}
+
+.section7-container {
+    background-color: #5e380c;
+    margin-top: 100px;
+}
+
+
+.email-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('Group46.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    gap: 30px;
+}
+
+.sub-title7{
+    text-align: center;
+    font-size: 60px;
+    color: var(--fontColor--sec7);
+    font-weight: 500;
+    
+}
+.caption{
+    font-size: 18px;
+    color: var(--fontColor--sec7);
+}
+.email-wrapper{
+    display: flex;
+    width: 642px;
+    height: 66px;
+    margin-top: 20px;
+}
+.email-input{
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+}
+.email-input:focus{
+    outline: none;
+}
+.subscribe-btn{
+    width: 150px;
+    border: none;
+    background-color: var(--acent-color);
+    font-size: 18px;
+    color: #442808;
+    font-weight: 500;
+}
+.footer-img2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: left;
+    width: 100%;
+    height: 500px;
+    color: var(--fontColor--sec7);
+    padding: 150px;
+}
+
+.intro-section
+{
+    width: 300px;
+   
+}
+.intro-section h3{
+     font-family: "Clicker Script", cursive;
+     font-size: 40px;
+     font-weight: 100;
+     margin-bottom: 25px;
+}
+h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 100;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    
+}
+
+:root {
+    --primary-color2: #603809;
+    --acent-color: #F9C06A;
+}
+
+.description-container {
+    height: 900px;
+    
+}
+
+.column-wrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 50px;
+    position: relative;
+}
+.sub-title-column1{
+    padding: 150px;
+}
+.sub-title {
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: var(--primary-color2);
+   
+}
+.sub-title1-description{
+    font-size: 28px;
+    line-height: 50px;
+    color:#707070;
+}
+.learn-more-btn{
+    margin-top: 50px;
+    padding: 20px 50px;
+    background-color: var(--acent-color);
+    border: none;
+    color: #603809;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    border-radius: 50px;
+ 
+}
+.coffe-bean-cup-img{
+    position: absolute;
+    top: 50px;
+    width: 650px;
+    height: 650px;
+    object-fit: cover;
+}

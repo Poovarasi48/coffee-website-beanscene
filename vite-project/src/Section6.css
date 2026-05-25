@@ -1,0 +1,90 @@
+:root{
+    --background-color : #FFEED8;
+    --secondary-bg-color : #FFF9F1;
+    --font-color : #603809;
+    --description-color : #707070;
+    --border-color : rgb(249, 192, 106, 0.50);
+    --btn-color :  rgb(249, 192, 106);
+}
+.review-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+}
+
+.sub-title6 {
+    text-align: center;
+    font-size: 60px;
+    color: var(--font-color);
+    font-weight: bold;
+}
+.review-caption{
+    margin-top: 15px;
+    text-align: center;
+}
+.reviews-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    padding: 100px;
+    margin: 50px 250px;
+    background-color: var(--background-color) ;
+    border: 1px solid var(--border-color);
+    font-weight: 500;
+    transition: 0.15s all linear;
+}
+.review-description{
+    font-size: 28px;
+    color: var(--description-color);
+    line-height: 50px;
+    padding: 40px;
+}
+.customer-name{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--font-color);
+}
+.job-role{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #707070;
+}
+.coffee-blast-right-img2{
+    position: absolute;
+    right: -10px;
+    top: 30px;
+
+}
+.quote-img{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+.left-arrow{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 220px;
+    left: 200px;
+    background-color: #F9C06A;
+    padding: 40px;
+    border-radius: 20px;
+}
+.right-arrow{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 220px;
+    right: 200px;
+     padding: 40px;
+    background-color: #F9C06A;
+    border-radius: 20px;
+}
+.coffee-blast-img3{
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}

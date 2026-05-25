@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "coffee-beans 1.png",
+        "title": "Supreme Beans",
+        "description": "Beans that provides great taste"
+    },
+    {
+        "id": 2,
+        "img" : "badge 1.png",
+        "title": "High Quality",
+        "description": "We provide the highest quality"
+    },
+    {
+        "id": 3,
+        "img" : "coffee-cup 1.png",
+        "title": "Extraordinary",
+        "description": "Coffee like you have never tasted"
+    },
+    {
+        "id": 4,
+        "img" : "best-price 1.png",
+        "title": "Affordable Price",
+        "description": "Our Coffee prices are easy to afford"
+    }
+]

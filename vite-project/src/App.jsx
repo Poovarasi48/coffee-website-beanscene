@@ -11,7 +11,15 @@ import Section7 from './section7.jsx';
 export default function App() {
   return (
     <>
-      <div className='container'>
+      <div className='container' style={{
+        background: "url('/overlay.png'), url('/coffee_image.png')",
+        backgroundSize: "cover, cover",
+        backgroundPosition: "center, center",
+        backgroundRepeat: "no-repeat, no-repeat",
+        height: "1000px"
+
+
+      }}>
         <div>
           <Navigation />
         </div>

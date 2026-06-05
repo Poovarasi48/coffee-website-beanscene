@@ -5,16 +5,7 @@
   --font-color: #707070;
 }
 
-.container {
-  background: url('../public/overlay.png'),
-    url('../public/coffee_image.png');
 
-  background-size: cover, cover;
-  background-position: center, center;
-  background-repeat: no-repeat, no-repeat;
-  height: 1000px;
-
-}
 
 .header {
   display: flex;

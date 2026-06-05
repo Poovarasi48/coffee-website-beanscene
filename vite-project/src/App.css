@@ -6,8 +6,8 @@
 }
 
 .container {
-  background: url('overlay.png'),
-    url('coffee_image.png');
+  background: url('/overlay.png'),
+    url('/coffee_image.png');
 
   background-size: cover, cover;
   background-position: center, center;

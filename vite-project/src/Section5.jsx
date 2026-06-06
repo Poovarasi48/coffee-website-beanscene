@@ -10,7 +10,7 @@ function FifthSection() {
                         Amazing morning</h2>
                     <p className='description'>We are giving you are one time opportunity to
                         experience a better life with coffee.</p>
-                    <button className='order-btn' style={{color: '#1E1E1E'}}>Order Now</button>
+                    <button className='order-btn-5' style={{color: '#1E1E1E'}}>Order Now</button>
                 </div>
                 <div className='column2'>
                     <img src="cup.png" className='cup-image' alt="cup-image" />

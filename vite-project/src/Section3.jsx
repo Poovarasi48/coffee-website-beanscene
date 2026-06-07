@@ -17,7 +17,7 @@ export default function ThirdSection() {
         <>
             <div className='section3-container'>
                 <img src='coffee_blast.png' className='coffee-blast-left-design'/>
-                <h2 className='sub-title' style={{ textAlign: 'center' }}>
+                <h2 className='sub-title3' style={{ textAlign: 'center' }}>
                     Enjoy a new blend of coffee style</h2>
                 <p className='description3'>
                     Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>

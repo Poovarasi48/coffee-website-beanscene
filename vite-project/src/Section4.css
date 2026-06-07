@@ -86,27 +86,29 @@
     border-radius: 30px;
 }
 
-@media (max-width : 780px) {
+@media (max-width : 480px) {
 
     .section4-container {
         display: flex;
         flex-direction: column;
         position: relative;
-        margin-top: 50px;
+        margin-top: 0px;
         height: auto;
-       
+
     }
 
     .coffe-splash-right-image {
         position: absolute;
         width: 260px;
-        right: 1px;
-        top: -100px;
+        top: -20px;
         z-index: -1;
     }
 
-    .sub-title {
-        margin-top: 80px;
+    .sub-title4 {
+        font-size: 40px;
+        margin-top: 150px;
+        margin-bottom: 30px;
+        color: var(--primary-color2);
     }
 
     .benefits-container {
@@ -114,9 +116,9 @@
         flex-direction: column;
         width: 100%;
         gap: 20px;
-        margin-top: 50px;
-        padding: 20px 100px;
-        margin-bottom: 20px;
+        margin-top: 0px;
+        padding: 0px 50px;
+        margin-bottom: 40px;
     }
 
     .benefits {
@@ -124,7 +126,7 @@
         flex-direction: column;
         align-items: center;
         background-color: var(--secondary-bg-color);
-        height: 350px;
+        height: auto;
         padding-top: 50px;
         border: 1px solid var(--border-color);
 
@@ -136,14 +138,16 @@
 
     .benefit-title {
         margin-top: 20px;
-        font-size: 28px;
+        font-size: 20px;
+        text-align: center;
         color: var(--font-color);
         font-weight: bold;
     }
 
     .benefit-description {
         margin-top: 20px;
-        font-size: 22px;
+        font-size: 16px;
+        padding-bottom: 50px;
         width: 200px;
         text-align: center;
         color: var(--description-color);
@@ -151,8 +155,8 @@
 
     .baseline-description {
         text-align: center;
-        margin-top: 20px;
-        font-size: 40px;
+        margin-top: 0px;
+        font-size: 25px;
         color: var(--font-color);
         font-weight: bold;
     }
@@ -166,6 +170,7 @@
 
     .join-us-btn {
         margin-top: 25px;
+        width: 200px;
         padding: 15px 50px;
         background-color: var(--btn-color);
         border: none;

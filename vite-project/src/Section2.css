@@ -93,7 +93,6 @@
     .sub-title {
         font-size: 40px;
         text-align: center;
-        margin-bottom: 25px;
         color: var(--primary-color2);
 
     }
@@ -119,7 +118,7 @@
     }
 
     .coffe-bean-cup-img {
-        top: 220px;
+        top: 140px;
         width: 300px;
         height: 200px;
         left: 0px;

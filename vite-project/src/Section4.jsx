@@ -14,7 +14,7 @@ export default function FourthSection() {
 
     return (
         <div className='section4-container'>
-            <h2 className='sub-title' style={{ textAlign: 'center' }}>
+            <h2 className='sub-title4' style={{ textAlign: 'center' }}>
                 Why are we different?</h2>
             <img src="coffee_blast (1).png" className="coffe-splash-right-image" />
             <p className='description3' style={{ color: '#707070' }}>

@@ -100,7 +100,7 @@
     bottom: -20px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 480px) {
     :root {
         --background-color: #FFEED8;
         --secondary-bg-color: #FFF9F1;
@@ -115,11 +115,13 @@
         flex-direction: column;
         margin-top: 100px;
         position: relative;
+        padding: 20px;
+        overflow: hidden;
     }
 
     .sub-title6 {
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         color: var(--font-color);
         font-weight: bold;
     }
@@ -128,27 +130,33 @@
         margin-top: 15px;
         text-align: center;
         font-size: 14px;
+        padding: 0px 40px;
     }
 
     .reviews-wrapper {
         display: flex;
         flex-direction: column;
-        height: 500px;
-        margin: 50px;
-        padding: 100px 50px;
+        height: 550px;
+        margin: 0 auto;
+        padding: 100px 20px;
         margin-top: 50px;
         background-color: var(--background-color);
         border: 1px solid var(--border-color);
         font-weight: 500;
         transition: 0.15s all linear;
     }
-
+    .reviews{
+        overflow-y: hidden;
+    
+        
+    }
     .review-description {
-        font-size: 16px;
+        font-size: 14px;
         color: var(--description-color);
         line-height: 20px;
         padding: 0px;
         text-align: center;
+        
     }
 
     .customer-name {
@@ -164,6 +172,7 @@
         margin-top: 10px;
         font-size: 16px;
         color: #707070;
+        
     }
 
     .coffee-blast-right-img2 {
@@ -178,7 +187,7 @@
         position: absolute;
         width: 50px;
         top: 220px;
-        left: 80px;
+        left: 50px;
     }
 
     .left-arrow {
@@ -186,7 +195,7 @@
         width: 50px;
         height: 50px;
         bottom: 150px;
-        left: 3cap;
+        left: 8px;
         background-color: #F9C06A;
         padding: 20px;
         border-radius: 20px;
@@ -197,7 +206,7 @@
         width: 50px;
         height: 50px;
         bottom: 150px;
-        right: 30px;
+        right: 8px;
         padding: 20px;
         background-color: #F9C06A;
         border-radius: 20px;

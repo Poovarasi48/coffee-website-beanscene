@@ -108,9 +108,10 @@
 
   }
   .sub-title3{
-    font-size: 40px;
+    font-size: 30px;
+    padding: 20px;
     margin-top: 120px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   .description3 {

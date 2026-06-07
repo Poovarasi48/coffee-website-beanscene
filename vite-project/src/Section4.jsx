@@ -17,7 +17,7 @@ export default function FourthSection() {
             <h2 className='sub-title4' style={{ textAlign: 'center' }}>
                 Why are we different?</h2>
             <img src="coffee_blast (1).png" className="coffe-splash-right-image" />
-            <p className='description3' style={{ color: '#707070' }}>
+            <p className='description4' style={{ color: '#707070' }}>
                 We don’t just make your coffee, we make your day!</p>
             <div className='benefits-container'>
                 {benefitsData.map((item) => {
